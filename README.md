@@ -57,22 +57,12 @@ Once you have the model.pth files, place them in the appropriate directory of th
 
 Once the virtual environment is set up and the necessary model files are in place, you can run the web application.
 
-python app.py
+    python app.py
 
 This will start the web server, and you can access the application via:
 
-http://127.0.0.1:5000
+    http://127.0.0.1:5000
 
 Contributing
 
 Feel free to fork the repository and submit issues or pull requests. Contributions are welcome!
-License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-Key Points:
-
-Virtual Environment: It’s essential to create and activate a virtual environment to install the dependencies.
-Model Files: The model.pth files are too large to upload to GitHub, so users need to upload them in their local setup. Make sure to place them in the appropriate folder (e.g., ./models/).
-Running the Web Application: Users can run the application with python app.py after setting up the environment.
-
-This README structure provides clear instructions for setting up the project locally, including the handling of large model files that cannot be uploaded to GitHub. Let me know if you need any additional modifications!
