@@ -2,9 +2,9 @@
 This web application leverages CLIP-KDViT and Grad-CAM to provide explainable chest X-ray diagnoses for COVID-19, pneumonia, and tuberculosis with high accuracy.
 Features
 
-    AI-powered Diagnosis: Automatically classifies chest X-ray images to detect COVID-19, pneumonia, and tuberculosis.
-    Explainable AI: Uses Grad-CAM for visualizing and understanding model predictions.
-    High Accuracy: Achieves high diagnostic accuracy through advanced deep learning techniques.
+AI-powered Diagnosis: Automatically classifies chest X-ray images to detect COVID-19, pneumonia, and tuberculosis.
+Explainable AI: Uses Grad-CAM for visualizing and understanding model predictions.
+High Accuracy: Achieves high diagnostic accuracy through advanced deep learning techniques.
 
 Requirements
 
@@ -24,11 +24,11 @@ python -m venv venv
 
     On Windows:
 
-.\venv\Scripts\activate
+        .\venv\Scripts\activate
 
-On MacOS/Linux:
+    On MacOS/Linux:
 
-    source venv/bin/activate
+        source venv/bin/activate
 
 3. Install Required Libraries:
 
@@ -52,6 +52,7 @@ The requirements.txt file should include all the necessary dependencies for runn
 Due to the size of the model.pth files, you need to upload them on your own. The pre-trained model files are required for making predictions but are too large to upload directly to the repository.
 
 Once you have the model.pth files, place them in the appropriate directory of the project (e.g., ./models/).
+
 5. Run the Web Application:
 
 Once the virtual environment is set up and the necessary model files are in place, you can run the web application.
@@ -70,8 +71,8 @@ License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Key Points:
 
-    Virtual Environment: It’s essential to create and activate a virtual environment to install the dependencies.
-    Model Files: The model.pth files are too large to upload to GitHub, so users need to upload them in their local setup. Make sure to place them in the appropriate folder (e.g., ./models/).
-    Running the Web Application: Users can run the application with python app.py after setting up the environment.
+Virtual Environment: It’s essential to create and activate a virtual environment to install the dependencies.
+Model Files: The model.pth files are too large to upload to GitHub, so users need to upload them in their local setup. Make sure to place them in the appropriate folder (e.g., ./models/).
+Running the Web Application: Users can run the application with python app.py after setting up the environment.
 
 This README structure provides clear instructions for setting up the project locally, including the handling of large model files that cannot be uploaded to GitHub. Let me know if you need any additional modifications!
